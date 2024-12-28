@@ -1,9 +1,39 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "MrMike.LookMaNoHeadgear",
+	"name": "Look Ma, no Head(gear)",
+	"description": "Removes the headgear from 47's various suits.  Toggle which ones you want via mod options.",
+	"authors": ["MrMike"],
+	"frameworkVersion": "2.25.1",
+	"options": [
+		{
+			"name": "The Krampus Little Helper Suit",
+			"tooltip": "Removes the antlers from The Krampus Little Helper Suit",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["krampus"]
+		},
+		{
+			"name": "The Big Bad Wolf Suit",
+			"tooltip": "Removes the mask from The Big Bad Wolf Suit",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["wolf"]
+		},
+		{
+			"name": "The Club Boom DJ Suit",
+			"tooltip": "Removes the mask from The Club Boom DJ Suit",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["boom"]
+		},
+		{
+			"name": "The Devil's Own",
+			"tooltip": "Removes the mask from The Devil's Own",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["devil"]
+		}
+	]
 }
