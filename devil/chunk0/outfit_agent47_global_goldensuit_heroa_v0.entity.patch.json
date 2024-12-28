@@ -5,19 +5,13 @@
 		{ "RemoveEntityByID": "e1f5b359796395cd" },
 		{ "RemoveEntityByID": "ef5b3fe137d54431" },
 		{
-			"SubEntityOperation": [
-				"d09369ce559d9e53",
-				{ "RemoveAllEventConnectionsForEvent": "Lerp" }
-			]
+			"SubEntityOperation": ["d09369ce559d9e53", { "RemoveAllEventConnectionsForEvent": "Lerp" }]
 		},
 		{
 			"SubEntityOperation": [
 				"f313253cd9b9054c",
 				{
-					"PatchArrayPropertyValue": [
-						"m_aBodyParts",
-						[{ "RemoveItemByValue": "ef5b3fe137d54431" }]
-					]
+					"PatchArrayPropertyValue": ["m_aBodyParts", [{ "RemoveItemByValue": "ef5b3fe137d54431" }]]
 				}
 			]
 		}

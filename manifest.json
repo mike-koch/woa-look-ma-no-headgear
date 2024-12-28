@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"id": "MrMike.LookMaNoHeadgear",
 	"name": "Look Ma, no Head(gear)",
 	"description": "Removes the headgear from 47's various suits.  Toggle which ones you want via mod options.",
 	"authors": ["MrMike"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.33.23",
 	"options": [
 		{
 			"name": "The Krampus Little Helper Suit",
@@ -35,5 +35,6 @@
 			"enabledByDefault": false,
 			"contentFolders": ["devil"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/mike-koch/woa-christmas-suit-no-antlers/releases/latest/download/updates.json"
 }
