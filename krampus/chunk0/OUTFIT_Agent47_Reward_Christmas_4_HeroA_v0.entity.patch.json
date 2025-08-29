@@ -8,10 +8,7 @@
 			"SubEntityOperation": [
 				"d2b02b9910e5763e",
 				{
-					"PatchArrayPropertyValue": [
-						"m_aBodyParts",
-						[{ "RemoveItemByValue": "1c9339a0fa71808b" }]
-					]
+					"PatchArrayPropertyValue": ["m_aBodyParts", [{ "RemoveItemByValue": "1c9339a0fa71808b" }]]
 				}
 			]
 		},
@@ -19,11 +16,7 @@
 			"SubEntityOperation": [
 				"6167b83d4ed2bc82",
 				{
-					"RemoveEventConnection": [
-						"Lerp",
-						"ConstantVector1D_04_Value",
-						"1c9339a0fa71808b"
-					]
+					"RemoveEventConnection": ["Lerp", "ConstantVector1D_04_Value", "1c9339a0fa71808b"]
 				}
 			]
 		}

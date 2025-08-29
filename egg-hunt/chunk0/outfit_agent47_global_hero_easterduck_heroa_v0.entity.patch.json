@@ -11,10 +11,7 @@
 				{
 					"PatchArrayPropertyValue": [
 						"m_aBodyParts",
-						[
-							{ "RemoveItemByValue": "17ad4b551b127de3" },
-							{ "RemoveItemByValue": "27ea87e68629b201" }
-						]
+						[{ "RemoveItemByValue": "17ad4b551b127de3" }, { "RemoveItemByValue": "27ea87e68629b201" }]
 					]
 				}
 			]
