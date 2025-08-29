@@ -9,10 +9,7 @@
 			"SubEntityOperation": [
 				"0d48e60f5dda09ac",
 				{
-					"PatchArrayPropertyValue": [
-						"m_aBodyParts",
-						[{ "RemoveItemByValue": "155d939e019b493d" }]
-					]
+					"PatchArrayPropertyValue": ["m_aBodyParts", [{ "RemoveItemByValue": "155d939e019b493d" }]]
 				}
 			]
 		}
