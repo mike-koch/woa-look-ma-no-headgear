@@ -1,0 +1,24 @@
+{
+	"tempHash": "002CF97932757EC1",
+	"tbluHash": "00A2B4B49E2DC220",
+	"patch": [
+		{ "RemoveEntityByID": "63b6a91e50bb2384" },
+		{ "RemoveEntityByID": "27ea87e68629b201" },
+		{ "RemoveEntityByID": "17ad4b551b127de3" },
+		{
+			"SubEntityOperation": [
+				"95cb05ebf69f281e",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "17ad4b551b127de3" },
+							{ "RemoveItemByValue": "27ea87e68629b201" }
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

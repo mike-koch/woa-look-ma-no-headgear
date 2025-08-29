@@ -8,11 +8,11 @@
 	"frameworkVersion": "2.25.1",
 	"options": [
 		{
-			"name": "The Krampus Little Helper Suit",
-			"tooltip": "Removes the antlers from The Krampus Little Helper Suit",
+			"name": "The Arkian Tuxedo",
+			"tooltip": "Removes the mask and hood from The Arkian Tuxedo",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": ["krampus"]
+			"contentFolders": ["arkian"]
 		},
 		{
 			"name": "The Big Bad Wolf Suit",
@@ -34,6 +34,20 @@
 			"type": "checkbox",
 			"enabledByDefault": false,
 			"contentFolders": ["devil"]
+		},
+		{
+			"name": "The Egg Hunt Suit",
+			"tooltip": "Removes the balaclava and beak from The Egg Hunt Suit",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["egg-hunt"]
+		},
+		{
+			"name": "The Krampus Little Helper Suit",
+			"tooltip": "Removes the antlers from The Krampus Little Helper Suit",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["krampus"]
 		}
 	]
 }
