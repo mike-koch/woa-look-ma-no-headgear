@@ -2,15 +2,15 @@
 	"tempHash": "00138733A780A5AA",
 	"tbluHash": "0052C575E2FD3EB5",
 	"patch": [
-		{ "RemoveEntityByID": "14b7f5c42a3f35bf" },
-		{ "RemoveEntityByID": "ee6eca4093b72663" },
+		{ "RemoveEntityByID": "169b9d134a81e58c" },
+		{ "RemoveEntityByID": "1c9339a0fa71808b" },
 		{
 			"SubEntityOperation": [
 				"d2b02b9910e5763e",
 				{
 					"PatchArrayPropertyValue": [
 						"m_aBodyParts",
-						[{ "RemoveItemByValue": "ee6eca4093b72663" }]
+						[{ "RemoveItemByValue": "1c9339a0fa71808b" }]
 					]
 				}
 			]
@@ -22,7 +22,7 @@
 					"RemoveEventConnection": [
 						"Lerp",
 						"ConstantVector1D_04_Value",
-						"ee6eca4093b72663"
+						"1c9339a0fa71808b"
 					]
 				}
 			]
